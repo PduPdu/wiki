@@ -25,7 +25,7 @@ Hay diferentes emuladores disponibles para DS y DSi. This page provides a compre
 | Game Boy (Color)        | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[rom name].sav`                                                           |
 | Game Boy Advance        | [GBARunner2][gbarunner2][^4], native[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                                                           |
 | Game Gear               | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                                                        |
-| Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`, `.md`                          | `[rom name].srm`[^6]                                                       |
+| Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`, `.md`[^11]                     | `[rom name].srm`[^6]                                                       |
 | Intellivision           | [Nintellivision][nintellivision]                 | `.int`                                 |                                                                            |
 | Master System           | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`                                                       |
 | MSX                     | [ColecoDS][colecods]                             | `.msx`                                 | ???                                                                        |
@@ -102,6 +102,7 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 [^8]: Saving requires a flashcard or a new version of the emulator (legacy version is used by default)
 [^9]: Has a bug where the BIOS screen is not shown when starting a game via arguments
 [^10]: Not required for native, required for a few games with GBARunner2, required for all games with GBARunner3
+[^11]: DS Phat and DS Lite won't work with `.md`, only files with `.gen` extensions will work
 
 [a5200ds]: https://github.com/wavemotion-dave/A5200DS
 [a7800ds]: https://github.com/wavemotion-dave/A7800DS
